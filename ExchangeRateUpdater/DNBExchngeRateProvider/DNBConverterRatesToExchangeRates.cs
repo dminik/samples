@@ -4,7 +4,7 @@ using System.Globalization;
 
 using ExchangeRateUpdater.BaseExchngeRateProvider;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider
+namespace ExchangeRateUpdater.DNBExchngeRateProvider
 {
     class DNBConverterRatesToExchangeRates : IDNBConverterRatesToExchangeRates
     {

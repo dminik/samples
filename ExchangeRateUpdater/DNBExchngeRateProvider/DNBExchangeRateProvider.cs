@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 using ExchangeRateUpdater.BaseExchngeRateProvider;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider
+namespace ExchangeRateUpdater.DNBExchngeRateProvider
 {
-    public class DNBExchangeRateProvider : BaseExchngeRateProvider.BaseExchangeRateProvider
+    public class DNBExchangeRateProvider : BaseExchangeRateProvider
     {        
         IDNBRemoteDataProvider DNBRemoteDataProvider { get; set; }
         IDNBConverterRatesToExchangeRates ConverterDNBRatesToExchangeRates { get; set; }

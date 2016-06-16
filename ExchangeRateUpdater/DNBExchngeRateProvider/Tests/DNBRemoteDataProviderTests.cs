@@ -4,7 +4,7 @@ using System.Linq;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider.Tests
+namespace ExchangeRateUpdater.DNBExchngeRateProvider.Tests
 {
     [TestClass]
     public class DNBRemoteDataProviderTests
@@ -32,7 +32,7 @@ namespace ExchangeRateUpdater.DNBExchangeRateProvider.Tests
         {
             // Arrange
             var progectPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../");
-            var testFilePath = new Uri(Path.Combine(progectPath, @"DNBExchangeRateProvider\Tests\TestRates.xml"));
+            var testFilePath = new Uri(Path.Combine(progectPath, @"DNBExchngeRateProvider\Tests\TestRates.xml"));
             Assert.IsTrue(File.Exists(testFilePath.LocalPath));
             var dataProviderUnderTest = new DNBRemoteDataProvider(testFilePath);
 

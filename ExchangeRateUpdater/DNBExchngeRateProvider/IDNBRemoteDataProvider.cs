@@ -1,4 +1,4 @@
-namespace ExchangeRateUpdater.DNBExchangeRateProvider
+namespace ExchangeRateUpdater.DNBExchngeRateProvider
 {
     public interface IDNBRemoteDataProvider
     {

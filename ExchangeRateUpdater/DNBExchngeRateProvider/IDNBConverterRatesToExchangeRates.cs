@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 using ExchangeRateUpdater.BaseExchngeRateProvider;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider
+namespace ExchangeRateUpdater.DNBExchngeRateProvider
 {
     public interface IDNBConverterRatesToExchangeRates
     {

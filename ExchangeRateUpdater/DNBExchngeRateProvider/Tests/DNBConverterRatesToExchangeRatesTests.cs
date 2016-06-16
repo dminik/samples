@@ -3,7 +3,7 @@ using System.Linq;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider.Tests
+namespace ExchangeRateUpdater.DNBExchngeRateProvider.Tests
 {
     [TestClass]
     public class DNBConverterRatesToExchangeRatesTests

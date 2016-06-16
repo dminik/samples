@@ -3,12 +3,15 @@ using System.Configuration;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider
+using Microsoft.Practices.Unity;
+
+namespace ExchangeRateUpdater.DNBExchngeRateProvider
 {
     public class DNBRemoteDataProvider : IDNBRemoteDataProvider
     {
         private Uri UrlDnbRates { get; set; }
 
+        [InjectionConstructor]
         public DNBRemoteDataProvider()
         {
             var strDNBRatesUrl = ConfigurationManager.AppSettings["DNBRatesUrl"];

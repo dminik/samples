@@ -3,9 +3,10 @@
 using ExchangeRateUpdater.BaseExchngeRateProvider;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using Moq;
 
-namespace ExchangeRateUpdater.DNBExchangeRateProvider.Tests
+namespace ExchangeRateUpdater.DNBExchngeRateProvider.Tests
 {
     [TestClass]
     public class DNBExchangeRateProviderTests

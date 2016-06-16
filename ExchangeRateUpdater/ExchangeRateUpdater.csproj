@@ -91,17 +91,17 @@
   <ItemGroup>
     <Compile Include="BaseExchngeRateProvider\BaseExchangeRateProvider.cs" />
     <Compile Include="BaseExchngeRateProvider\Tests\BaseExchangeRateProviderTests.cs" />
-    <Compile Include="DNBExchangeRateProvider\DNBConverterRatesToExchangeRates.cs" />
+    <Compile Include="DNBExchngeRateProvider\DNBConverterRatesToExchangeRates.cs" />
     <Compile Include="BaseExchngeRateProvider\Currency.cs" />
-    <Compile Include="DNBExchangeRateProvider\DNBRemoteDataProvider.cs" />
-    <Compile Include="DNBExchangeRateProvider\DNBRatesXMLEntities.cs" />
-    <Compile Include="DNBExchangeRateProvider\IDNBConverterRatesToExchangeRates.cs" />
-    <Compile Include="DNBExchangeRateProvider\IDNBRemoteDataProvider.cs" />
-    <Compile Include="DNBExchangeRateProvider\Tests\DNBConverterRatesToExchangeRatesTests.cs" />
-    <Compile Include="DNBExchangeRateProvider\Tests\DNBExchangeRateProviderTests.cs" />
-    <Compile Include="DNBExchangeRateProvider\Tests\DNBRemoteDataProviderTests.cs" />
+    <Compile Include="DNBExchngeRateProvider\DNBRemoteDataProvider.cs" />
+    <Compile Include="DNBExchngeRateProvider\DNBRatesXMLEntities.cs" />
+    <Compile Include="DNBExchngeRateProvider\IDNBConverterRatesToExchangeRates.cs" />
+    <Compile Include="DNBExchngeRateProvider\IDNBRemoteDataProvider.cs" />
+    <Compile Include="DNBExchngeRateProvider\Tests\DNBConverterRatesToExchangeRatesTests.cs" />
+    <Compile Include="DNBExchngeRateProvider\Tests\DNBExchangeRateProviderTests.cs" />
+    <Compile Include="DNBExchngeRateProvider\Tests\DNBRemoteDataProviderTests.cs" />
     <Compile Include="BaseExchngeRateProvider\ExchangeRate.cs" />
-    <Compile Include="DNBExchangeRateProvider\DNBExchangeRateProvider.cs" />
+    <Compile Include="DNBExchngeRateProvider\DNBExchangeRateProvider.cs" />
     <Compile Include="BaseExchngeRateProvider\IExchangeRateProvider.cs" />
     <Compile Include="Init.cs" />
     <Compile Include="Program.cs" />
@@ -112,7 +112,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DNBExchangeRateProvider\Tests\TestRates.xml" />
+    <Content Include="DNBExchngeRateProvider\Tests\TestRates.xml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
