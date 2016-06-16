@@ -13,6 +13,7 @@ namespace ExchangeRateUpdater
         /// </summary>
         public IEnumerable<ExchangeRate> GetExchangeRates(IEnumerable<Currency> currencies)
         {
+            // ok
             return Enumerable.Empty<ExchangeRate>();
         }
     }
