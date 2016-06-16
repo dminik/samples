@@ -1,9 +1,19 @@
-﻿namespace ExchangeRateUpdater
+﻿using System;
+
+namespace ExchangeRateUpdater.BaseExchngeRateProvider
 {
     public class ExchangeRate
     {
         public ExchangeRate(Currency sourceCurrency, Currency targetCurrency, decimal value)
         {
+            if (sourceCurrency == null)
+            {
+                throw new ArgumentNullException(nameof(sourceCurrency));
+            }
+            if (targetCurrency == null)
+            {
+                throw new ArgumentNullException(nameof(targetCurrency));
+            }
             SourceCurrency = sourceCurrency;
             TargetCurrency = targetCurrency;
             Value = value;

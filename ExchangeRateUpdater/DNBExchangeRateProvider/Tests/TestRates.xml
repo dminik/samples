@@ -1,0 +1,7 @@
+﻿<exchangerates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="Exhange rates" author="Danmarks Nationalbank" refcur="DKK" refamt="1">
+    <dailyrates id="2016-06-16">
+        <currency code="AUD" desc="Australian dollars" rate="488.79"/>
+        <currency code="ISK" desc="Icelandic kronur *" rate="-"/>        
+        <currency code="ZAR" desc="South African rand" rate="43.17"/>
+    </dailyrates>
+</exchangerates>

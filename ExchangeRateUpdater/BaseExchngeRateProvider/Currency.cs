@@ -1,10 +1,17 @@
-﻿namespace ExchangeRateUpdater
+﻿using System;
+
+namespace ExchangeRateUpdater.BaseExchngeRateProvider
 {
     public class Currency
     {
         public Currency(string code)
         {
-            Code = code;
+            if (code == null)
+            {
+                throw new ArgumentNullException(nameof(code));
+            }
+
+            Code = code.ToUpperInvariant();
         }
 
         /// <summary>

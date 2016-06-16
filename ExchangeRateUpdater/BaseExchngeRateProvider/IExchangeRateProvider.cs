@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+using System.Collections.Generic;
 
-namespace ExchangeRateUpdater
+namespace ExchangeRateUpdater.BaseExchngeRateProvider
 {
-    public class ExchangeRateProvider
+    public interface IExchangeRateProvider
     {
         /// <summary>
         /// Should return exchange rates among the specified currencies that are defined by the source. But only those defined
@@ -11,10 +10,6 @@ namespace ExchangeRateUpdater
         /// do not return exchange rate "USD/EUR" with value calculated as 1 / "EUR/USD". If the source does not provide
         /// some of the currencies, ignore them.
         /// </summary>
-        public IEnumerable<ExchangeRate> GetExchangeRates(IEnumerable<Currency> currencies)
-        {
-            // ok
-            return Enumerable.Empty<ExchangeRate>();
-        }
+        IEnumerable<ExchangeRate> GetExchangeRates(IEnumerable<Currency> currencies);
     }
 }
